@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Number Guessing Game 🎯</h1>
+
+        <p>Enter Maximum Number:</p>
+        <input type="number" id="maxNum">
+        <button id="startBtn">Start Game</button>
+
+        <div id="gameArea" class="hidden">
+            <p>Guess the number:</p>
+            <input type="number" id="guessInput">
+            <button id="guessBtn">Guess</button>
+            <button id="quitBtn">Quit</button>
+
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
